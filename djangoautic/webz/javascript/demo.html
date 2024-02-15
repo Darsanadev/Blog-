@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta character="utf-8">
+        <title>Javascript</title>
+    </head>
+
+    <style>
+        #screen{
+            width: 300px;
+            height: 300px;
+            border: solid 1px;
+
+        }
+    </style>
+
+    <body>
+        <input type="text"id="val">
+        <button onclick="touch()">Touch me</button>
+        <h1 id="dis"></h1>
+     
+        <input type="value"id="inp">
+        <button onclick="display()">click me</button>
+        <h1 id="display-head"></h1>
+        <div id="screen">
+
+        </div>
+        <button onclick="color('red')">red</button>
+        <button onclick="color('green')">green</button>
+        <button onclick="color('orange')">orange</button>
+        <button onclick="color('yellow')">yellow</button>
+        <script>
+            hey()
+            function display(){
+               
+                var val=document.getElementById("inp").value
+                document.getElementById("display-head").innerHTML=val
+
+            }
+        
+            function color(col){
+                document.getElementById("screen").style.background=col
+            }
+            var person=[{
+                Name:"Darshuu",
+                Age:21,
+                place:"Netherland",
+                Job:"software enginear"
+            },{Name:"young",
+               Age:"21",
+               place:"korea"
+            }
+            ]
+            console.log(person)
+            console.log(person[0].place)
+            
+            function hey(){
+                console.log("heyy")
+                             
+            }
+            function touch(){
+                var input=document.getElementById("val").value
+                document.getElementById("dis").innerHTML=input
+            }
+           
+        </script>
+    </body>    
+</html>

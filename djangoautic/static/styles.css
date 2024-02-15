@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(97, 160, 186);
+}
+
+h1{
+    color:rgb(22, 10, 64);
+    font-size: 50px;  
+    
+}
+.header{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav button{
+    background: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 0;
+   
+}
+.articlelist{
+    text-align: center;
+    margin: 100px auto;
+    margin-top: 50px auto;
+    font-weight: 200px;
+}
+
+.logout-link{
+    font-weight: 100px;
+    cursor: pointer;
+    margin-left: 970px;
+    margin-top: -120.0px;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+   
+}
+
+.create{
+    margin-left: 880px;
+    margin-top: -36px;
+    color: rgb(11, 10, 102) ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    text-decoration: none;
+    display: grid;
+    border: 1px solid rgb(23, 78, 102); 
+    background-color: rgb(131, 198, 198);
+   
+
+}
+.submit{
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(131, 198, 198);
+    color: black;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+.articles{
+
+
+    display: grid;
+    border: 1px solid rgb(23, 118, 118);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+    grid-row-gap: 50px;
+    float: left;
+
+}
+.auther{
+    padding-left: 7px;
+    padding-right: 7px;
+    background: rgb(59, 132, 132);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+
+}
+.log{
+    padding: 20px;
+}
+.loginn {
+    padding: 20px;
+}
+.login{
+    padding-top: 50px;
+    padding: 18px;
+    font-size: 12px;
+
+}
+.article{
+    float: left;
+    margin-left: 20px;
+    width: 456px;
+    padding: 10px;
+    border: 1px solid rgb(23, 118, 118);
+    position: relative;
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
+.wrapper{
+
+
+    margin-top: -27px;
+    padding-top: 20px;
+    margin-left: 22px;
+}
+
+.signup{
+    
+    margin-top: 70px;
+}
+.create_article{
+    display: grid;
+    margin: 20px 0 0 0;
+    margin-left: 20px;
+    margin-top: 130px;
+    display: grid;
+    display: block;
+    grid-area: inherit;
+    border: 1px solid rgb(35, 78, 97);
+    background-color: rgb(66, 131, 131);
+
+}
+
+.site-form input.site-form textarea{
+    font-size: 12px;
+    display: block;
+
+}

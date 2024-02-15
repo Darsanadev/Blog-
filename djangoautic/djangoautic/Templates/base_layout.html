@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta character="utf-8">
+        <title>Articles</title>
+       <link rel='stylesheet'href="/static/styles.css">
+    </head>
+    <body>
+        <header class="wrapper">
+            <h1><a href=""><img src="{% static 'jngo (2).png' %}"alt="djangoautic"/></a></h1>
+            <nav>
+                <ul>                    
+                    <li>
+                        <form class="logout-link"action="{% url 'accounts:logout' %}"method="post">
+                            {% csrf_token %}
+                            <div class="logbtn"></div>
+                            <button class="submit">Logout</button>  
+                        </div>
+                                                            
+                        </form>  
+                    </li>
+                    <nav>
+                        <button class="create"><a href="{% url 'Article:create' %}"style="text=decoration:none;">Article create</a>
+                        </button>
+                        <div></div>
+                   
+                </nav>
+                    
+            </nav>
+        </header> 
+        <div class="wrapper">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>

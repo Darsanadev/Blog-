@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(49, 196, 228);
+}
+
+.logo{
+    color: blue;
+    font-family: inherit; 
+    font-size: 12px;
+}

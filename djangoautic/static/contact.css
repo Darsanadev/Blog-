@@ -1,0 +1,33 @@
+.bg-info{
+    width: 500px;
+    height: 300px;
+}
+.btn{
+    margin-left: 20px;
+}
+.loc{
+    width: 12px;
+    font-size: 12px;
+}
+<div class="card p-3">
+<div class="col-md-3">
+    <p class="p-3">Name :
+    <input typ="text p-3" style="margin-left: 20px;">
+    </p>
+</div>
+<div class=" col-md-3">
+    <p class="p-3">E-mail :
+    <input typ="text p-3" style="margin-left: 20px;">
+    </p>
+</div>
+<div class=" col-sm-6">
+    <p class="p-3">phone :
+    <input typ="text p-3" style="margin-left: 20px;">
+    </p>
+</div>
+<div class=" col-sm-6">
+    <p class="p-3">sub :
+    <input typ="text p-3" style="margin-left: 20px;">
+    </p>
+</div>
+</div>

@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(241, 241, 246);
+}
+
+.img{
+    color: rgb(57, 95, 192);
+    font-size: 35px;
+    font-family: inherit;
+    font-style: bold;
+    height: 106px;
+    margin: 28px;
+    padding-top: 100px;
+    margin-right: 350px; 
+    margin-bottom: 8px;
+    padding-left: 20px;
+    font-weight: 300px;
+    text-decoration: none;
+}
+
+
+    
+.main-box{
+    background-color: rgb(110, 196, 196);
+    width: 270px;
+    height: 200px;
+    padding: 3px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: -150px;
+    margin-right: 200px;
+    border-radius: 13px;
+    margin-left: 19px;
+
+}
+.logos{
+    color: blue;
+}
+
+.email-box{
+    width: 350px;
+    padding-left: 1px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-bottom: 200px;
+    padding-top: -230px;
+    float: left;
+}
+
+.email{
+    padding-left: 12px;
+    padding-right: 20px;
+    margin-top: 5px;
+    padding: 18px;
+    border-radius: 5px;
+    border-width: 1.38px;
+    border-color: rgb(239, 233, 233);
+    color: rgb(136, 123, 123);
+    font-size: 17px;
+    
+}
+.password{
+    padding: 20px;
+    padding-top: 17px;
+    color: rgb(136, 123, 123);
+    font-size: 17px;
+    padding-right: 170px;
+    float: left;
+}
+
+.pass-box{
+   padding-left: -1px;
+   float: left;
+}
+.login-box{
+ margin-top: 2px;
+}
+.para{
+    
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: normal;
+   
+}
+

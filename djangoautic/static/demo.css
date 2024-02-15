@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(228, 153, 223);
+}
+
+#para1{
+    color:rgb(62, 32, 171);
+    font-size: 30px;
+}
+#para2{
+    color: blueviolet;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.black{
+    color: black;
+    cursor: pointer;
+}
+.content{
+    color: darkgreen;
+    background-color: rgb(146, 202, 227);
+    padding-left: 10px;
+    border: 3px solid;
+    border-color: blueviolet;
+    width: 201px;
+    margin: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+div{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(47, 82, 11);
+    border: 2px solid;
+    border-color: black;
+}
+.white{
+    color: white;
+    padding-left: 50px;
+    margin: 20px;
+    margin-top: 30px;
+    
+}
+.mainbox{
+    margin-top: 200px;
+    width: 880px;
+    height: 550px;
+    float: left;
+    background-color: aqua;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+    background-color: rgb(40, 235, 96);
+    float: left;
+    margin-top: 50px;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(179, 89, 141);
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.para{
+    width: 50%;
+    color: black;
+    float: left;
+    font-size: 2px;
+    font-style: normal;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-left: -16px;
+    margin-top: -18px;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(124, 98, 204);
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+}
